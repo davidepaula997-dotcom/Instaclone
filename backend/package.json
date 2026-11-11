@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "seed": "node --experimental-sqlite --disable-warning=experimentalWarning seed.js",
+    "consultas":"node --experimental-sqlite --disable-warning=experimentalWarning consultas.js" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcryptjs": "^3.0.3"
+  }
+}
