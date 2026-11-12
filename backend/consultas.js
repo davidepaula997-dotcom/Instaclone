@@ -22,6 +22,7 @@ console.table(
       `SELECT posts.id, posts.legenda, usuarios.usuario AS autor
        FROM posts
        JOIN usuarios ON usuarios.id = posts.usuario_id
+       ORDER BY RANDOM()
        LIMIT 6`
     )
     .all()
